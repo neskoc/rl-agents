@@ -6,13 +6,13 @@
     },
     "double": false,
     "gamma": 0.8,
-    "n_steps": 1,
+    "n_steps": 1000,
     "batch_size": 32,
     "memory_capacity": 30000,
     "target_update": 50,
     "exploration": {
         "method": "EpsilonGreedy",
-        "tau": 10000,
+        "tau": 100000,
         "temperature": 1.0,
         "final_temperature": 0.05
     },
